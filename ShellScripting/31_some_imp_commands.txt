@@ -1,0 +1,12 @@
+0. chmod +x <file name> (for single file)
+   chmod +x *   	(for all file)
+1. basename -> provide full path with filename to get only file name
+2. dirname  -> provide full path with filename to get only file path(dirctory)
+3. realpath -> provide file name or any command to get filepath/location
+4. $RANDOM  -> To generate random number
+5. $su -    -> To access as root user
+6. $UID     -> To know the user ID
+7. >	    -> Store data of one file/output to another by overriding existing content
+8. >> 	    -> Same thing but without replacing
+9. &> /dev/nul  -> It helps when user dont want to show the output in terminal or save output in any file.
+

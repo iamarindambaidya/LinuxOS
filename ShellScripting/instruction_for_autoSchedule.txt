@@ -1,0 +1,27 @@
+# In a specific time on same day
+
+date -> to check current date and time
+
+at <time; eg, 09:05 PM>
+
+bash /home/kali/myscripts/35_redirect.sh
+<EOT>  # Press Ctrl+D to finish input
+
+atq # Verify the Job
+
+
+
+
+# In a Specific date
+
+at 21:00 Dec 2
+
+at> echo Hello>test.txt
+at> <EOT>
+
+atq #To varify scheduled jobs..
+
+
+# To remove Scheduled jobs
+atq 	  -> check scheduled job and ID
+atrm <ID> -> remove specific job from scheduled list
